@@ -86,7 +86,7 @@ var drawBarChart2 = function() {
   let count = updateData2()
 
   // get the svg to draw on
-  let svg = d3.select("body").select("svg");
+  let svg = d3.select("body").select("#svg2");
 
   /*
    * we will need to map our data domain to our svg range, which
