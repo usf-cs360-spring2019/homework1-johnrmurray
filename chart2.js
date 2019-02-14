@@ -5,11 +5,11 @@
 
 function colorScheme2(c) {
   if (c === "Tenderloin") {
-      return "#F1CE63"
+      return "#4E79A7"
     }
     
     else if (c === "Mission") {
-      return "#E15759"
+      return "#4E79A7"
     }
     
     else if (c === "Russian Hill") {
@@ -17,27 +17,27 @@ function colorScheme2(c) {
     }
     
     else if (c === "North Beach") {
-      return "#F28E2B"
+      return "#4E79A7"
     }
     
     else if (c === "Marina") {
-      return "#D37295"
+      return "#4E79A7"
     }
     
      else if (c === "Castro/Upper Market") {
-      return "#59A14F"
+      return "#4E79A7"
     }
     
     else if (c === "Golden Gate Park") {
-      return "#9D7660"
+      return "#4E79A7"
     }
     
     else if (c === "Lone Mountain/USF") {
-      return "#A0CBE8"
+      return "#4E79A7"
     }
     
     else if (c === "Haight Ashbury") {
-      return "#D7B5A6"
+      return "#4E79A7"
     }
 }
 
