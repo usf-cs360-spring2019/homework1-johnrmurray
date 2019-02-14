@@ -265,7 +265,7 @@ var drawBarChart2 = function() {
       .attr("x", -150)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Number of Recordz");
+      .text("Number of Records");
 
 //     svg.append("g")
 //         .call(xAxis);
