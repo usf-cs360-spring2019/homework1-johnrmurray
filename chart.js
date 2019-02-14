@@ -73,10 +73,10 @@ var updateData = function() {
   // some browsers support console.table()
   // javascript supports try/catch blocks
   try {
-    // console.table(count.entries());
+    // console.table(map2.entries());
   }
   catch (e) {
-    // console.log(count);
+    // console.log(map2);
   }
 
   return map2;
@@ -91,7 +91,7 @@ var drawBarChart = function() {
   let count = updateData()
 
   // get the svg to draw on
-  let svg = d3.select("body").select("svg");
+  let svg = d3.select("body").select("#svg1");
 
   /*
    * we will need to map our data domain to our svg range, which
