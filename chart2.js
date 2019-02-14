@@ -81,9 +81,9 @@ var updateData2 = function() {
  * our massive function to draw a bar chart. note some stuff in here
  * is bonus material (for transitions and updating the text)
  */
-var drawBarChart = function() {
+var drawBarChart2 = function() {
   // get the data to visualize
-  let count = updateData()
+  let count = updateData2()
 
   // get the svg to draw on
   let svg = d3.select("body").select("svg");
