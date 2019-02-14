@@ -266,7 +266,7 @@ var drawBarChart = function() {
     svg.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("y", 0)
+      .attr("y", 15)
       .attr("x", -150)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
